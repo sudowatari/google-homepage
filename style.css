@@ -1,169 +1,161 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-text-align: center;
-justify-content: center;
-align-items: center;
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-
 /* header */
-
 header {
- font-size: 0.8rem;
-color: rgb(61, 61, 61);
+  font-size: 0.8rem;
+  color: rgb(61, 61, 61);
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-flow: row nowrap;
-    padding: 10px 5px;
-  }
-  
-  .nav-left, .nav-right {
-    display: flex;
-  }
-  
-  .nav-link {
-    margin: 5px 10px;
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-flow: row nowrap;
+  padding: 10px 5px;
+}
 
-  .nav-link:hover {
-    text-decoration: underline;
-  }
+.nav-left, .nav-right {
+  display: flex;
+}
 
-  .signinbtn:hover {
-    text-decoration: none;
-  }
+.nav-link {
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
+}
 
-  .signin {
-      background-color: #2962FF;
-      color: white;
-        border: none;
-       padding: 5px;
-       font-weight: bold;
-  }
+.nav-link:hover {
+  text-decoration: underline;
+}
 
-  .signin:hover {
-    box-shadow: 0 1px 0 #1140c0af;
-  }
+.signinbtn:hover {
+  text-decoration: none;
+}
 
-  
+.signin {
+  background-color: #2962FF;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.signin:hover {
+  box-shadow: 0 1px 0 #1140c0af;
+}
+
 /* google logo */
-
 h1 {
-    font-size: 5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .g {
-    color: blue;
+  color: blue;
 }
 
 .oe {
-    color: red;
-
+  color: red;
 }
 
 .o2 {
-    color: orange;
+  color: orange;
 }
 
 .l {
-    color: green;
+  color: green;
 }
 
 /* search bar */
-
 .googbut {
-    color: rgb(90, 90, 90);    
-    background-color: #ececec;
-    border: none;
-    width: 140px;
-    height: 31px;
-    font-size: 0.9rem;
-    border-radius: 5px;
+  color: rgb(90, 90, 90);
+  background-color: #ececec;
+  border: none;
+  width: 140px;
+  height: 31px;
+  font-size: 0.9rem;
+  border-radius: 5px;
 }
 
 .googbut:hover {
-    border: 1px solid rgba(128, 128, 128, 0.295);
-    box-shadow: 0 0.5px 0 #8a8a8a56;
-    color: black;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  box-shadow: 0 0.5px 0 #8a8a8a56;
+  color: black;
 }
 
 #search {
-    width: 450px;
-    padding: 0 20px;
-    height: 30px;
-    border: none;
-    
+  width: 450px;
+  padding: 0 20px;
+  height: 30px;
+  border: none;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .mainsearch {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchbox {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(128, 128, 128, 0.411);
-    padding: 10px 20px;
-    border-radius: 40px;
-    width: 550px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+  padding: 10px 20px;
+  border-radius: 40px;
+  width: 550px;
 }
 
 .searchbox:hover {
-    box-shadow: 0 1px 10px 2px #b8b8b8e3;
-    border-color: rgba(8, 8, 10, 0);
+  box-shadow: 0 1px 10px 2px #b8b8b8e3;
+  border-color: rgba(8, 8, 10, 0);
 }
 
 /* footer */
-
 footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
-    height: 40px;
-    padding-top: 5px;
-    color: rgb(71, 71, 71);
-    background-color: rgb(230, 230, 230);
-    font-size: 0.9rem;
-    border-top: 1px solid rgba(128, 128, 128, 0.116);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 40px;
+  padding-top: 5px;
+  color: rgb(71, 71, 71);
+  background-color: rgb(230, 230, 230);
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.116);
 }
 
 .nav2 {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-flow: row nowrap;
-  }
-  
-  .nav-left2, .nav-right2 {
-    display: flex;
-  }
-  
-  .nav-link2 {
-    margin: 5px 10px;
-  }
-  .nav-link2:hover {
-    text-decoration: underline;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-flow: row nowrap;
+}
 
+.nav-left2, .nav-right2 {
+  display: flex;
+}
+
+.nav-link2 {
+  margin: 5px 10px;
+}
+
+.nav-link2:hover {
+  text-decoration: underline;
+}

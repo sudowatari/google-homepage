@@ -14,4 +14,4 @@ Twitch stream Jul 27
 - flex - maybe just need to use justify-content & align-items most of the time.
 - slap flex on everything
 - cannot override parent css. best to assign add new class to existing class
-- completed easy version!
+- completed easy version! will start hard version sometime this week 
